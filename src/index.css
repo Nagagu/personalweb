@@ -1,13 +1,222 @@
 body {
+  /* background-color: #0a1b43; */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-image: url("cyberpunk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  backdrop-filter: blur(6px);
+  background-position: inherit;
+}
+h1,
+h3,
+p {
+  color: white;
+  font-family: "Chakra Petch";
+  text-align: center;
+}
+.navbar-nav {
+  display: none;
+}
+.navbar {
+  padding-top: 2vh;
+}
+label {
+  color: white;
+  width: 100%;
+  height: 50vh;
+  pointer-events: all;
+  padding: 5vw;
+}
+.modal-menu {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #080808c7;
+  z-index: 1;
+  transition: all 200ms ease-in-out;
+}
+.menu {
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.menu a {
+  color: white;
+  font-size: 2rem;
+  line-height: 11vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 96vh;
+  width: auto;
+  justify-content: space-between;
+  color: white;
+}
+.logo {
+  background-image: url("logoNatWhite.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 15vh;
+}
+.name {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 6em;
+
+  border-top: 1px solid;
+  padding-top: 4vh;
+  border-bottom: 1px solid;
+  padding-bottom: 4vh;
+  text-align: center;
+}
+.name p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20vh;
+}
+.buttons-container button {
+  padding: 15px 25px;
+  background: transparent;
+  width: 23vw;
+  border: 1px solid white;
+  margin: 5px;
+  pointer-events: all;
+}
+.buttons-container button:hover {
+  background-color: #ffffff69;
+}
+button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Chakra Petch";
+  font-size: 1.2rem;
+}
+.section-title {
+  margin: 3vh 0px 13vh 0px;
+  /* border-bottom: solid 1px; */
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Chakra Petch";
+}
+.about {
+  height: 94vh;
+  padding: 40px;
+  line-height: 24px;
+}
+.about p {
+  text-align: justify;
+  color: white;
+}
+.personal-photo {
+  background-image: url("./personal-photo.png");
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+}
+.projects {
+  height: 100%;
+  padding: 40px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects img {
+  width: 85vw;
+}
+.project-card {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+.project-card p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin-bottom: 6vh;
+}
+
+.project-card a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-family: "Chakra Petch";
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    height: 94vh;
+    width: auto;
+  }
+  .logo {
+    margin-top: 6vh;
+  }
+  .buttons-container {
+    padding-bottom: 25vh;
+  }
+  .buttons-container button {
+    padding: 15px;
+    background: #17161691;
+    width: 9vw;
+  }
+  .navbar {
+    padding: 0px;
+  }
+  .navbar-nav {
+    display: flex;
+    height: 60px;
+    background: #f7f1f121;
+  }
+  .navbar-nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Chakra Petch";
+    padding: 0px 2vw;
+    font-size: 1.4rem;
+  }
+  .nav-right {
+    display: flex;
+    margin-left: 45vw;
+    align-items: center;
+  }
+  .nav-left {
+    display: flex;
+    flex-direction: row;
+    margin-left: 11vw;
+    align-items: center;
+  }
+
+  label {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .modal-menu {
+    display: none;
+  }
+
+  .projects img {
+    width: 35vw;
+  }
+  .project-card p {
+    width: 35vw;
+  }
+  .project-card a:hover {
+    background-color: #ffffff69;
+  }
 }
