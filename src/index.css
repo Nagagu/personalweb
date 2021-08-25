@@ -33,7 +33,7 @@ label {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: #080808c7;
+  background: #0e0e0eeb;
   z-index: 1;
   transition: all 200ms ease-in-out;
 }
@@ -47,12 +47,14 @@ label {
   color: white;
   font-size: 2rem;
   line-height: 11vh;
+  font-family: "Chakra Petch";
+  text-decoration: none;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  height: 96vh;
+  height: 94vh;
   width: auto;
   justify-content: space-between;
   color: white;
@@ -67,13 +69,13 @@ label {
 }
 .name {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 6em;
-
+  font-size: 3em;
   border-top: 1px solid;
-  padding-top: 4vh;
+  padding-top: 6vh;
   border-bottom: 1px solid;
   padding-bottom: 4vh;
   text-align: center;
+  margin: 3vh 8vw 0px 8vw;
 }
 .name p {
   font-family: "Open Sans", sans-serif;
@@ -83,14 +85,14 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 20vh;
+  /* padding-bottom: 20vh; */
 }
 .buttons-container button {
-  padding: 15px 25px;
+  padding: 11px 0px;
   background: transparent;
-  width: 23vw;
+  width: 27vw;
   border: 1px solid white;
-  margin: 5px;
+  margin: 6vh 5px;
   pointer-events: all;
 }
 .buttons-container button:hover {
@@ -103,7 +105,7 @@ button a {
   font-size: 1.2rem;
 }
 .section-title {
-  margin: 3vh 0px 13vh 0px;
+  margin: 3vh 0px 10vh 0px;
   /* border-bottom: solid 1px; */
   color: white;
   width: 100%;
@@ -112,19 +114,19 @@ button a {
   font-family: "Chakra Petch";
 }
 .about {
-  height: 94vh;
+  /* height: 94vh; */
   padding: 40px;
   line-height: 24px;
+  text-align: center;
 }
 .about p {
   text-align: justify;
   color: white;
 }
-.personal-photo {
-  background-image: url("./personal-photo.png");
-  width: 40px;
-  height: 40px;
-  background-size: contain;
+.about img {
+  width: 40vw;
+  border-radius: 80px;
+  margin-bottom: 4vh;
 }
 .projects {
   height: 100%;
@@ -155,6 +157,13 @@ button a {
   padding: 15px 25px;
   border-radius: 30px;
   font-family: "Chakra Petch";
+}
+.social-links {
+  text-align: center;
+}
+.social-links a {
+  color: white;
+  padding: 18px;
 }
 
 @media only screen and (min-width: 1000px) {
