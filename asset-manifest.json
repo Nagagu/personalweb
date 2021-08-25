@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f502d7f.chunk.css",
-    "main.js": "/static/js/main.f76c8d1e.chunk.js",
-    "main.js.map": "/static/js/main.f76c8d1e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.410d612f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.410d612f.js.map",
-    "static/js/2.4b1d4fd4.chunk.js": "/static/js/2.4b1d4fd4.chunk.js",
-    "static/js/2.4b1d4fd4.chunk.js.map": "/static/js/2.4b1d4fd4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.5f502d7f.chunk.css.map": "/static/css/main.5f502d7f.chunk.css.map",
-    "static/js/2.4b1d4fd4.chunk.js.LICENSE.txt": "/static/js/2.4b1d4fd4.chunk.js.LICENSE.txt",
-    "static/media/battleshipCapture.024f565e.png": "/static/media/battleshipCapture.024f565e.png",
-    "static/media/catQuizCapture.746f7e05.png": "/static/media/catQuizCapture.746f7e05.png",
-    "static/media/creandovinculos.90ff1492.png": "/static/media/creandovinculos.90ff1492.png",
-    "static/media/index.css": "/static/media/cyberpunk.1db9e0b8.jpg",
-    "static/media/personal-photo2.c90cebe5.png": "/static/media/personal-photo2.c90cebe5.png",
-    "static/media/portfolioCapture.a6035e56.png": "/static/media/portfolioCapture.a6035e56.png",
-    "static/media/thenewstoreCapture.55f7d0c5.png": "/static/media/thenewstoreCapture.55f7d0c5.png",
-    "static/media/todoAppCapture.d786e9d8.png": "/static/media/todoAppCapture.d786e9d8.png"
+    "main.css": "/personalweb/static/css/main.1647db9b.chunk.css",
+    "main.js": "/personalweb/static/js/main.f76c8d1e.chunk.js",
+    "main.js.map": "/personalweb/static/js/main.f76c8d1e.chunk.js.map",
+    "runtime-main.js": "/personalweb/static/js/runtime-main.7a1dac1e.js",
+    "runtime-main.js.map": "/personalweb/static/js/runtime-main.7a1dac1e.js.map",
+    "static/js/2.4b1d4fd4.chunk.js": "/personalweb/static/js/2.4b1d4fd4.chunk.js",
+    "static/js/2.4b1d4fd4.chunk.js.map": "/personalweb/static/js/2.4b1d4fd4.chunk.js.map",
+    "index.html": "/personalweb/index.html",
+    "static/css/main.1647db9b.chunk.css.map": "/personalweb/static/css/main.1647db9b.chunk.css.map",
+    "static/js/2.4b1d4fd4.chunk.js.LICENSE.txt": "/personalweb/static/js/2.4b1d4fd4.chunk.js.LICENSE.txt",
+    "static/media/battleshipCapture.024f565e.png": "/personalweb/static/media/battleshipCapture.024f565e.png",
+    "static/media/catQuizCapture.746f7e05.png": "/personalweb/static/media/catQuizCapture.746f7e05.png",
+    "static/media/creandovinculos.90ff1492.png": "/personalweb/static/media/creandovinculos.90ff1492.png",
+    "static/media/index.css": "/personalweb/static/media/cyberpunk.1db9e0b8.jpg",
+    "static/media/personal-photo2.c90cebe5.png": "/personalweb/static/media/personal-photo2.c90cebe5.png",
+    "static/media/portfolioCapture.a6035e56.png": "/personalweb/static/media/portfolioCapture.a6035e56.png",
+    "static/media/thenewstoreCapture.55f7d0c5.png": "/personalweb/static/media/thenewstoreCapture.55f7d0c5.png",
+    "static/media/todoAppCapture.d786e9d8.png": "/personalweb/static/media/todoAppCapture.d786e9d8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.410d612f.js",
+    "static/js/runtime-main.7a1dac1e.js",
     "static/js/2.4b1d4fd4.chunk.js",
-    "static/css/main.5f502d7f.chunk.css",
+    "static/css/main.1647db9b.chunk.css",
     "static/js/main.f76c8d1e.chunk.js"
   ]
 }
