@@ -4,6 +4,7 @@ import catQuizCapture from "../catQuizCapture.png";
 import portfolioCapture from "../portfolioCapture.png";
 import thenewstoreCapture from "../thenewstoreCapture.png";
 import todoAppCapture from "../todoAppCapture.png";
+import creandovinculos from "../creandovinculos.png";
 export const Projects = () => {
   return (
     <div className="projects">
@@ -16,6 +17,9 @@ export const Projects = () => {
           with C # in .Net environment and Entity Framework
         </p>
         <a href="" className="btn-visit">
+          Open in Github <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="" className="btn-visit">
           Visit site
         </a>
       </div>
@@ -26,6 +30,9 @@ export const Projects = () => {
           I wanted to do something with my photography portfolio and here is. A
           showcase of some of my best photos and their location.
         </p>
+        <a href="" className="btn-visit">
+          Open in Github <i class="fab fa-github fa-lg"></i>
+        </a>
         <a href="" className="btn-visit">
           Visit site
         </a>
@@ -38,6 +45,9 @@ export const Projects = () => {
           Redux and calling an external API
         </p>
         <a href="" className="btn-visit">
+          Open in Github <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="" className="btn-visit">
           Visit site
         </a>
       </div>
@@ -49,6 +59,9 @@ export const Projects = () => {
           PWA so it can be installed on any operating system
         </p>
         <a href="" className="btn-visit">
+          Open in Github <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="" className="btn-visit">
           Visit site
         </a>
       </div>
@@ -59,6 +72,17 @@ export const Projects = () => {
           Answer the questions to find out how much of a geek you are. Also
           developed as PWA.
         </p>
+        <a href="" className="btn-visit">
+          Open in Github <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="" className="btn-visit">
+          Visit site
+        </a>
+      </div>
+      <div className="project-card">
+        <img src={creandovinculos} alt="creando vinculos Capture" />
+        <h3>Creando Vínculos Wordpress</h3>
+        <p>A wordpress created with care for a psychotherapy professional</p>
         <a href="" className="btn-visit">
           Visit site
         </a>

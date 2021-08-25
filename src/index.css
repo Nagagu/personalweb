@@ -147,16 +147,19 @@ button a {
 .project-card p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
-  margin-bottom: 6vh;
+  margin-bottom: 4vh;
 }
 
 .project-card a {
   color: white;
   text-decoration: none;
   border: 1px solid;
-  padding: 15px 25px;
+  padding: 8px 18px;
   border-radius: 30px;
   font-family: "Chakra Petch";
+}
+.btn-visit {
+  margin: 0px 13px;
 }
 .social-links {
   text-align: center;
@@ -168,19 +171,20 @@ button a {
 
 @media only screen and (min-width: 1000px) {
   .container {
-    height: 94vh;
+    height: 90vh;
     width: auto;
   }
   .logo {
     margin-top: 6vh;
   }
-  .buttons-container {
+  /* .buttons-container {
     padding-bottom: 25vh;
-  }
+  } */
   .buttons-container button {
     padding: 15px;
     background: #17161691;
     width: 9vw;
+    margin: 11vh 23px;
   }
   .navbar {
     padding: 0px;
@@ -195,7 +199,7 @@ button a {
     color: white;
     font-family: "Chakra Petch";
     padding: 0px 2vw;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .nav-right {
     display: flex;
