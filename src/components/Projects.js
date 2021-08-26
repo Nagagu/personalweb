@@ -16,10 +16,10 @@ export const Projects = () => {
           Simple To-Do application of React js together with the server part
           with C # in .Net environment and Entity Framework
         </p>
-        <a href="" className="btn-visit">
+        <a href="https://github.com/Nagagu/TodoList/" className="btn-visit">
           Github <i class="fab fa-github fa-lg"></i>
         </a>
-        <a href="" className="btn-visit">
+        <a href="https://nagagu.github.io/TodoList/" className="btn-visit">
           Visit site
         </a>
       </div>
@@ -27,13 +27,13 @@ export const Projects = () => {
         <img src={portfolioCapture} alt="portfolio Capture" />
         <h3>Portfolio example</h3>
         <p>
-          I wanted to do something with my photography portfolio and here is. A
-          showcase of some of my best photos and their location.
+          I wanted to do something with my photography portfolio and here it is.
+          A showcase of some of my best photos and their location.
         </p>
-        <a href="" className="btn-visit">
+        <a href="https://github.com/Nagagu/portfolio" className="btn-visit">
           Github <i class="fab fa-github fa-lg"></i>
         </a>
-        <a href="" className="btn-visit">
+        <a href="https://nagagu.github.io/portfolio/" className="btn-visit">
           Visit site
         </a>
       </div>
@@ -44,10 +44,10 @@ export const Projects = () => {
           A simple store in which to add and remove products from the cart using
           Redux and calling an external API
         </p>
-        <a href="" className="btn-visit">
+        <a href="https://github.com/Nagagu/TheNewStore" className="btn-visit">
           Github <i class="fab fa-github fa-lg"></i>
         </a>
-        <a href="" className="btn-visit">
+        <a href="https://nagagu.github.io/TheNewStore/" className="btn-visit">
           Visit site
         </a>
       </div>
@@ -55,13 +55,19 @@ export const Projects = () => {
         <img src={battleshipCapture} alt="battleship Capture" />
         <h3>Battleship Game</h3>
         <p>
-          Very simplified version of the battleship Game using Redux. It is a
+          Very simplified version of the Battleship Game using Redux. It is a
           PWA so it can be installed on any operating system
         </p>
-        <a href="" className="btn-visit">
+        <a
+          href="https://github.com/Nagagu/BattleShipGame"
+          className="btn-visit"
+        >
           Github <i class="fab fa-github fa-lg"></i>
         </a>
-        <a href="" className="btn-visit">
+        <a
+          href="https://nagagu.github.io/BattleShipGame/"
+          className="btn-visit"
+        >
           Visit site
         </a>
       </div>
@@ -72,10 +78,10 @@ export const Projects = () => {
           Answer the questions to find out how much of a geek you are. Also
           developed as PWA.
         </p>
-        <a href="" className="btn-visit">
+        <a href="https://github.com/Nagagu/catsApp/" className="btn-visit">
           Github <i class="fab fa-github fa-lg"></i>
         </a>
-        <a href="" className="btn-visit">
+        <a href="https://nagagu.github.io/catsApp/" className="btn-visit">
           Visit site
         </a>
       </div>
@@ -83,7 +89,7 @@ export const Projects = () => {
         <img src={creandovinculos} alt="creando vinculos Capture" />
         <h3>Creando Vínculos Wordpress</h3>
         <p>A wordpress created with care for a psychotherapy professional</p>
-        <a href="" className="btn-visit">
+        <a href="https://creandovinculos.com/" className="btn-visit">
           Visit site
         </a>
       </div>

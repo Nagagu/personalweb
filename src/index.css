@@ -105,13 +105,19 @@ button a {
   font-size: 1.2rem;
 }
 .section-title {
-  margin: 3vh 0px 10vh 0px;
+  margin: 3vh 0px 5vh 0px;
   /* border-bottom: solid 1px; */
   color: white;
   width: 100%;
   text-align: center;
   font-size: 2rem;
   font-family: "Chakra Petch";
+}
+.section {
+  height: 86vh;
+  padding: 40px;
+  line-height: 24px;
+  text-align: center;
 }
 .about {
   /* height: 94vh; */
@@ -126,7 +132,7 @@ button a {
 .about img {
   width: 40vw;
   border-radius: 80px;
-  margin-bottom: 4vh;
+  margin-bottom: 1vh;
 }
 .projects {
   height: 100%;
@@ -233,9 +239,7 @@ button a {
   .project-card a:hover {
     background-color: #ffffff69;
   }
-  .section {
-    height: 86vh;
-  }
+
   .section p {
     margin: 0px 27vw;
   }
