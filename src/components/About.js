@@ -3,7 +3,7 @@ import personalphoto from "../personal-photo2.png";
 
 export const About = () => {
   return (
-    <div className="about">
+    <div className="section about">
       <div className="section-title">About :</div>
       <img src={personalphoto} alt="personal photo"></img>
       <p>

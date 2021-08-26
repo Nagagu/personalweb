@@ -2,7 +2,7 @@ import React from "react";
 
 export const Contact = () => {
   return (
-    <div className="about">
+    <div className="section contact">
       <div className="section-title">Contact :</div>
       <p>
         I am looking for a creative project that allows me to express my ideas

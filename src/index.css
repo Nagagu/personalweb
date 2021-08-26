@@ -157,6 +157,7 @@ button a {
   padding: 8px 18px;
   border-radius: 30px;
   font-family: "Chakra Petch";
+  font-size: 0.8rem;
 }
 .btn-visit {
   margin: 0px 13px;
@@ -231,5 +232,19 @@ button a {
   }
   .project-card a:hover {
     background-color: #ffffff69;
+  }
+  .section {
+    height: 86vh;
+  }
+  .section p {
+    margin: 0px 27vw;
+  }
+  .about img {
+    width: 15vw;
+    border-radius: 147px;
+    margin-bottom: 4vh;
+  }
+  .contact h3 {
+    margin-top: 9vh;
   }
 }

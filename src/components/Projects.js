@@ -17,7 +17,7 @@ export const Projects = () => {
           with C # in .Net environment and Entity Framework
         </p>
         <a href="" className="btn-visit">
-          Open in Github <i class="fab fa-github fa-lg"></i>
+          Github <i class="fab fa-github fa-lg"></i>
         </a>
         <a href="" className="btn-visit">
           Visit site
@@ -31,7 +31,7 @@ export const Projects = () => {
           showcase of some of my best photos and their location.
         </p>
         <a href="" className="btn-visit">
-          Open in Github <i class="fab fa-github fa-lg"></i>
+          Github <i class="fab fa-github fa-lg"></i>
         </a>
         <a href="" className="btn-visit">
           Visit site
@@ -45,7 +45,7 @@ export const Projects = () => {
           Redux and calling an external API
         </p>
         <a href="" className="btn-visit">
-          Open in Github <i class="fab fa-github fa-lg"></i>
+          Github <i class="fab fa-github fa-lg"></i>
         </a>
         <a href="" className="btn-visit">
           Visit site
@@ -59,7 +59,7 @@ export const Projects = () => {
           PWA so it can be installed on any operating system
         </p>
         <a href="" className="btn-visit">
-          Open in Github <i class="fab fa-github fa-lg"></i>
+          Github <i class="fab fa-github fa-lg"></i>
         </a>
         <a href="" className="btn-visit">
           Visit site
@@ -73,7 +73,7 @@ export const Projects = () => {
           developed as PWA.
         </p>
         <a href="" className="btn-visit">
-          Open in Github <i class="fab fa-github fa-lg"></i>
+          Github <i class="fab fa-github fa-lg"></i>
         </a>
         <a href="" className="btn-visit">
           Visit site
