@@ -5,6 +5,7 @@ import portfolioCapture from "../portfolioCapture.png";
 import thenewstoreCapture from "../thenewstoreCapture.png";
 import todoAppCapture from "../todoAppCapture.png";
 import creandovinculos from "../creandovinculos.png";
+import rubenCapture from "../rubenCapture.png";
 export const Projects = () => {
   return (
     <div className="projects">
@@ -92,6 +93,11 @@ export const Projects = () => {
         <a href="https://creandovinculos.com/" className="btn-visit">
           Visit site
         </a>
+      </div>
+      <div className="project-card">
+        <img src={rubenCapture} alt="creando vinculos Capture" />
+        <h3>Ruben is my teacher</h3>
+        <p>A Spanish classes wordpress for a teacher</p>
       </div>
     </div>
   );
