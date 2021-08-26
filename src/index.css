@@ -114,17 +114,12 @@ button a {
   font-family: "Chakra Petch";
 }
 .section {
-  height: 86vh;
+  height: auto;
   padding: 40px;
   line-height: 24px;
   text-align: center;
 }
-.about {
-  /* height: 94vh; */
-  padding: 40px;
-  line-height: 24px;
-  text-align: center;
-}
+
 .about p {
   text-align: justify;
   color: white;
