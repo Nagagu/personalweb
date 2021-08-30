@@ -151,7 +151,7 @@ button a {
   margin-bottom: 4vh;
 }
 
-.project-card a {
+.project-card .btn-visit {
   color: white;
   text-decoration: none;
   border: 1px solid;
@@ -231,7 +231,7 @@ button a {
   .project-card p {
     width: 35vw;
   }
-  .project-card a:hover {
+  .project-card .btn-visit:hover {
     background-color: #ffffff69;
   }
 

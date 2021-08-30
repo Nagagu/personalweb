@@ -11,7 +11,10 @@ export const Projects = () => {
     <div className="projects">
       <div className="section-title">Projects :</div>
       <div className="project-card">
-        <img src={todoAppCapture} alt="Todo List Capture" />
+        <a href="https://nagagu.github.io/TodoList/" className="">
+          <img src={todoAppCapture} alt="Todo List Capture" />
+        </a>
+
         <h3>To-Do List</h3>
         <p>
           Simple To-Do application of React js together with the server part
@@ -25,7 +28,10 @@ export const Projects = () => {
         </a>
       </div>
       <div className="project-card">
-        <img src={portfolioCapture} alt="portfolio Capture" />
+        <a href="https://nagagu.github.io/portfolio/" className="">
+          <img src={portfolioCapture} alt="portfolio Capture" />
+        </a>
+
         <h3>Portfolio example</h3>
         <p>
           I wanted to do something with my photography portfolio and here it is.
@@ -39,7 +45,10 @@ export const Projects = () => {
         </a>
       </div>
       <div className="project-card">
-        <img src={thenewstoreCapture} alt="the new store Capture" />
+        <a href="https://nagagu.github.io/TheNewStore/" className="">
+          <img src={thenewstoreCapture} alt="the new store Capture" />
+        </a>
+
         <h3>The New Store</h3>
         <p>
           A simple store in which to add and remove products from the cart using
@@ -53,7 +62,10 @@ export const Projects = () => {
         </a>
       </div>
       <div className="project-card">
-        <img src={battleshipCapture} alt="battleship Capture" />
+        <a href="https://nagagu.github.io/BattleShipGame/" className="">
+          <img src={battleshipCapture} alt="battleship Capture" />
+        </a>
+
         <h3>Battleship Game</h3>
         <p>
           Very simplified version of the Battleship Game using Redux. It is a
@@ -73,7 +85,11 @@ export const Projects = () => {
         </a>
       </div>
       <div className="project-card">
-        <img src={catQuizCapture} alt="cat Quiz Capture" />
+        <a href="https://nagagu.github.io/catsApp/" className="">
+          <a href="https://nagagu.github.io/catsApp/" className="">
+            <img src={catQuizCapture} alt="cat Quiz Capture" />
+          </a>
+        </a>
         <h3>Cat Quiz</h3>
         <p>
           Answer the questions to find out how much of a geek you are. Also
@@ -87,7 +103,10 @@ export const Projects = () => {
         </a>
       </div>
       <div className="project-card">
-        <img src={creandovinculos} alt="creando vinculos Capture" />
+        <a href="https://creandovinculos.com/" className="">
+          <img src={creandovinculos} alt="creando vinculos Capture" />
+        </a>
+
         <h3>Creando Vínculos Wordpress</h3>
         <p>A wordpress created with care for a psychotherapy professional</p>
         <a href="https://creandovinculos.com/" className="btn-visit">
@@ -97,7 +116,7 @@ export const Projects = () => {
       <div className="project-card">
         <img src={rubenCapture} alt="creando vinculos Capture" />
         <h3>Ruben is my teacher</h3>
-        <p>A Spanish classes wordpress for a teacher</p>
+        <p>A Spanish classes wordpress for a teacher (currently inactive) </p>
       </div>
     </div>
   );

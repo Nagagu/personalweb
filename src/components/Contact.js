@@ -17,10 +17,13 @@ export const Contact = () => {
       <p>If you are interested you can contact me here:</p>
       <h3>n.garridoagudo@gmail.com</h3>
       <div className="social-links">
-        <a href="">
+        <a href="https://github.com/Nagagu" target="_blank">
           <i class="fab fa-github fa-3x"></i>
         </a>
-        <a href="">
+        <a
+          href="https://linkedin.com/in/natalia-garrido-agudo-396a2a7b"
+          target="_blank"
+        >
           <i class="fab fa-linkedin fa-3x"></i>
         </a>
       </div>
