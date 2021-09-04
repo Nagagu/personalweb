@@ -31,7 +31,7 @@ export const Contact = () => {
         </div>
       </div>
       <a
-        href="../cvNatEn.pdf"
+        href={process.env.PUBLIC_URL + "/cvNatEn.pdf"}
         download="Natalia Curriculum Vitae"
         className="btn-visit cv"
       >
