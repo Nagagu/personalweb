@@ -26,7 +26,17 @@ export const Contact = () => {
         >
           <i class="fab fa-linkedin fa-3x"></i>
         </a>
+        <div>
+          <p>You can download mi CV if you wish more information</p>{" "}
+        </div>
       </div>
+      <a
+        href="../cvNatEn.pdf"
+        download="Natalia Curriculum Vitae"
+        className="btn-visit cv"
+      >
+        <i class="fas fa-cloud-download-alt"></i> Download CV
+      </a>
     </div>
   );
 };

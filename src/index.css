@@ -151,7 +151,7 @@ button a {
   margin-bottom: 4vh;
 }
 
-.project-card .btn-visit {
+.btn-visit {
   color: white;
   text-decoration: none;
   border: 1px solid;
@@ -159,10 +159,11 @@ button a {
   border-radius: 30px;
   font-family: "Chakra Petch";
   font-size: 0.8rem;
-}
-.btn-visit {
   margin: 0px 13px;
 }
+/* .btn-visit {
+  margin: 0px 13px;
+} */
 .social-links {
   text-align: center;
 }
@@ -231,19 +232,20 @@ button a {
   .project-card p {
     width: 35vw;
   }
-  .project-card .btn-visit:hover {
+  .btn-visit:hover {
     background-color: #ffffff69;
   }
 
   .section p {
-    margin: 0px 27vw;
+    margin: 20px 20vw;
   }
   .about img {
     width: 15vw;
     border-radius: 147px;
     margin-bottom: 4vh;
   }
-  .contact h3 {
+
+  /* .contact h3 {
     margin-top: 9vh;
-  }
+  } */
 }
