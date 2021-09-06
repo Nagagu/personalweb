@@ -6,6 +6,7 @@ import thenewstoreCapture from "../thenewstoreCapture.png";
 import todoAppCapture from "../todoAppCapture.png";
 import creandovinculos from "../creandovinculos.png";
 import rubenCapture from "../rubenCapture.png";
+import swaggerCapture from "../swaggerCapture.png";
 export const Projects = () => {
   return (
     <div className="projects">
@@ -25,6 +26,20 @@ export const Projects = () => {
         </a>
         <a href="https://nagagu.github.io/TodoList/" className="btn-visit">
           Visit site
+        </a>
+      </div>
+      <div className="project-card">
+        <a href="https://github.com/Nagagu/TodoListServer/" className="">
+          <img src={swaggerCapture} alt="Todo List Server Capture" />
+        </a>
+
+        <h3>To-Do List Server</h3>
+        <p>Server part with C # in .Net environment and Entity Framework</p>
+        <a
+          href="https://github.com/Nagagu/TodoListServer/"
+          className="btn-visit"
+        >
+          Github <i class="fab fa-github fa-lg"></i>
         </a>
       </div>
       <div className="project-card">

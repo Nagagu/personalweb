@@ -236,8 +236,12 @@ button a {
     background-color: #ffffff69;
   }
 
+  .section {
+    height: 95vh;
+  }
+
   .section p {
-    margin: 20px 20vw;
+    margin: 6vh 20vw;
   }
   .about img {
     width: 15vw;
