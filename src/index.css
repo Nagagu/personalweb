@@ -2,11 +2,11 @@ body {
   /* background-color: #0a1b43; */
   margin: 0;
   padding: 0;
-  background-image: url("cyberpunk.jpg");
+  background-image: url("cyber.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  backdrop-filter: blur(6px);
+  /* backdrop-filter: blur(6px); */
   background-position: inherit;
 }
 h1,
@@ -15,6 +15,7 @@ p {
   color: white;
   font-family: "Chakra Petch";
   text-align: center;
+  text-shadow: 1px 1px 1px #070707;
 }
 .navbar-nav {
   display: none;
@@ -51,7 +52,7 @@ label {
   text-decoration: none;
 }
 
-.container {
+.main {
   display: flex;
   flex-direction: column;
   height: 94vh;
@@ -75,19 +76,20 @@ label {
   border-bottom: 1px solid;
   padding-bottom: 4vh;
   text-align: center;
+  line-height: 6vh;
   margin: 3vh 8vw 0px 8vw;
 }
 .name p {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
 }
-.buttons-container {
+.buttons-main {
   display: flex;
   flex-direction: row;
   justify-content: center;
   /* padding-bottom: 20vh; */
 }
-.buttons-container button {
+.buttons-main button {
   padding: 11px 0px;
   background: transparent;
   width: 27vw;
@@ -95,7 +97,7 @@ label {
   margin: 6vh 5px;
   pointer-events: all;
 }
-.buttons-container button:hover {
+.buttons-main button:hover {
   background-color: #ffffff69;
 }
 button a {
@@ -114,10 +116,16 @@ button a {
   font-family: "Chakra Petch";
 }
 .section {
-  height: auto;
+  height: 87vh;
   padding: 40px;
   line-height: 24px;
   text-align: center;
+}
+.section p {
+  margin-bottom: 4vh;
+}
+.social-links {
+  margin-bottom: 4vh;
 }
 
 .about p {
@@ -161,6 +169,10 @@ button a {
   font-size: 0.8rem;
   margin: 0px 13px;
 }
+#cv {
+  font-size: 1rem;
+  padding: 12px 30px;
+}
 /* .btn-visit {
   margin: 0px 13px;
 } */
@@ -173,7 +185,7 @@ button a {
 }
 
 @media only screen and (min-width: 1000px) {
-  .container {
+  .main {
     height: 90vh;
     width: auto;
   }
@@ -183,7 +195,7 @@ button a {
   /* .buttons-container {
     padding-bottom: 25vh;
   } */
-  .buttons-container button {
+  .buttons-main button {
     padding: 15px;
     background: #17161691;
     width: 9vw;
@@ -196,12 +208,14 @@ button a {
     display: flex;
     height: 60px;
     background: #f7f1f121;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .navbar-nav a {
     text-decoration: none;
     color: white;
     font-family: "Chakra Petch";
-    padding: 0px 2vw;
+    padding: 0px 1vw;
     font-size: 1.2rem;
   }
   .nav-right {
@@ -212,7 +226,7 @@ button a {
   .nav-left {
     display: flex;
     flex-direction: row;
-    margin-left: 11vw;
+
     align-items: center;
   }
 
@@ -232,6 +246,10 @@ button a {
   .project-card p {
     width: 35vw;
   }
+  .btn-visit {
+    padding: 8px 30px;
+    font-size: 1rem;
+  }
   .btn-visit:hover {
     background-color: #ffffff69;
   }
@@ -243,13 +261,30 @@ button a {
   .section p {
     margin: 6vh 20vw;
   }
+  .section-title {
+    margin: 3vh 0px 7vh 0px;
+  }
   .about img {
     width: 15vw;
     border-radius: 147px;
-    margin-bottom: 4vh;
+    margin-bottom: 0vh;
   }
 
   /* .contact h3 {
     margin-top: 9vh;
   } */
+}
+
+@media only screen and (min-width: 1400px) {
+  .section p {
+    margin: 6vh 12vw;
+  }
+  p {
+    font-size: 1.3rem;
+    line-height: 5vh;
+  }
+
+  .projects p {
+    font-size: initial;
+  }
 }
