@@ -55,7 +55,7 @@ label {
 .main {
   display: flex;
   flex-direction: column;
-  height: 94vh;
+  /* height: 74vh; */
   width: auto;
   justify-content: space-between;
   color: white;
@@ -67,6 +67,7 @@ label {
   background-position: center;
   width: 100%;
   height: 15vh;
+  margin-bottom: 6vh;
 }
 .name {
   font-family: "Chakra Petch", sans-serif;
@@ -77,7 +78,7 @@ label {
   padding-bottom: 4vh;
   text-align: center;
   line-height: 6vh;
-  margin: 3vh 8vw 0px 8vw;
+  /* margin: -20vh 8vw 0px 8vw; */
 }
 .name p {
   font-family: "Open Sans", sans-serif;
@@ -94,7 +95,7 @@ label {
   background: transparent;
   width: 27vw;
   border: 1px solid white;
-  margin: 6vh 5px;
+  margin: 7vh 5px;
   pointer-events: all;
 }
 .buttons-main button:hover {
@@ -116,7 +117,7 @@ button a {
   font-family: "Chakra Petch";
 }
 .section {
-  height: auto;
+  /* height: auto; */
   /* height: 85vh; */
   padding: 40px;
   line-height: 24px;
@@ -134,8 +135,12 @@ button a {
   color: white;
 }
 .about img {
-  width: 40vw;
-  border-radius: 80px;
+  width: 100%;
+  max-width: 25vh;
+  height: auto;
+  /* max-width: 40vw;
+  max-height: 20vh; */
+  border-radius: 50%;
   margin-bottom: 1vh;
 }
 .projects {
@@ -147,13 +152,18 @@ button a {
   align-items: center;
 }
 
-.projects img {
-  width: 85vw;
+.project-card img {
+  width: 100%;
+  max-width: 50vh;
 }
 .project-card {
   text-align: center;
   margin-bottom: 10vh;
 }
+
+/* .project-card img {
+  max-width: 50%;
+} */
 .project-card p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
@@ -187,11 +197,10 @@ button a {
 
 @media only screen and (min-width: 1000px) {
   .main {
-    height: 90vh;
     width: auto;
   }
   .logo {
-    margin-top: 6vh;
+    margin-bottom: 3vh;
   }
   /* .buttons-container {
     padding-bottom: 25vh;
@@ -200,7 +209,7 @@ button a {
     padding: 15px;
     background: #17161691;
     width: 9vw;
-    margin: 11vh 23px;
+    margin: 7vh 23px;
   }
   .navbar {
     padding: 0px;
@@ -240,13 +249,16 @@ button a {
   .modal-menu {
     display: none;
   }
+  .name {
+    margin: 3vh 8vw 0px 8vw;
+  }
 
-  .projects img {
-    width: 35vw;
+  .project-card img {
+    max-width: 50%;
   }
-  .project-card p {
+  /* .project-card p {
     width: 35vw;
-  }
+  } */
   .btn-visit {
     padding: 8px 30px;
     font-size: 1rem;
@@ -260,15 +272,15 @@ button a {
   } */
 
   .section p {
-    margin: 6vh 20vw;
+    margin: 6vh 10vw;
+    line-height: 4vh;
+    font-size: 1.2rem;
   }
   .section-title {
     margin: 3vh 0px 7vh 0px;
   }
   .about img {
-    width: 15vw;
-    border-radius: 147px;
-    margin-bottom: 0vh;
+    max-width: 35vh;
   }
 
   /* .contact h3 {
