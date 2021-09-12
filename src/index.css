@@ -1,13 +1,13 @@
+html {
+  background: url("cyber.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
-  /* background-color: #0a1b43; */
   margin: 0;
   padding: 0;
-  background-image: url("cyber.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  /* backdrop-filter: blur(6px); */
-  background-position: inherit;
 }
 h1,
 h3,
@@ -255,9 +255,9 @@ button a {
     background-color: #ffffff69;
   }
 
-  .section {
+  /* .section {
     height: 95vh;
-  }
+  } */
 
   .section p {
     margin: 6vh 20vw;
