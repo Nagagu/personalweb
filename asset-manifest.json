@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personalweb/static/css/main.7bcbf4f4.chunk.css",
-    "main.js": "/personalweb/static/js/main.4ff51bca.chunk.js",
-    "main.js.map": "/personalweb/static/js/main.4ff51bca.chunk.js.map",
+    "main.js": "/personalweb/static/js/main.fffb7c89.chunk.js",
+    "main.js.map": "/personalweb/static/js/main.fffb7c89.chunk.js.map",
     "runtime-main.js": "/personalweb/static/js/runtime-main.7a1dac1e.js",
     "runtime-main.js.map": "/personalweb/static/js/runtime-main.7a1dac1e.js.map",
     "static/js/2.4b1d4fd4.chunk.js": "/personalweb/static/js/2.4b1d4fd4.chunk.js",
@@ -10,21 +10,21 @@
     "index.html": "/personalweb/index.html",
     "static/css/main.7bcbf4f4.chunk.css.map": "/personalweb/static/css/main.7bcbf4f4.chunk.css.map",
     "static/js/2.4b1d4fd4.chunk.js.LICENSE.txt": "/personalweb/static/js/2.4b1d4fd4.chunk.js.LICENSE.txt",
-    "static/media/battleshipCapture.024f565e.png": "/personalweb/static/media/battleshipCapture.024f565e.png",
-    "static/media/catQuizCapture.746f7e05.png": "/personalweb/static/media/catQuizCapture.746f7e05.png",
-    "static/media/creandovinculos.90ff1492.png": "/personalweb/static/media/creandovinculos.90ff1492.png",
+    "static/media/battleshipCapture.03711a5e.png": "/personalweb/static/media/battleshipCapture.03711a5e.png",
+    "static/media/catQuizCapture.03d62eb4.png": "/personalweb/static/media/catQuizCapture.03d62eb4.png",
+    "static/media/creandovinculos.8edbfe56.png": "/personalweb/static/media/creandovinculos.8edbfe56.png",
     "static/media/index.css": "/personalweb/static/media/cyber.f6f60792.png",
     "static/media/personal-photo2.47916797.png": "/personalweb/static/media/personal-photo2.47916797.png",
-    "static/media/portfolioCapture.a6035e56.png": "/personalweb/static/media/portfolioCapture.a6035e56.png",
-    "static/media/rubenCapture.e2a07b24.png": "/personalweb/static/media/rubenCapture.e2a07b24.png",
-    "static/media/swaggerCapture.a13b217a.png": "/personalweb/static/media/swaggerCapture.a13b217a.png",
-    "static/media/thenewstoreCapture.55f7d0c5.png": "/personalweb/static/media/thenewstoreCapture.55f7d0c5.png",
-    "static/media/todoAppCaptureReduced.d4e05a9d.png": "/personalweb/static/media/todoAppCaptureReduced.d4e05a9d.png"
+    "static/media/portfolioCapture.38bcd01c.png": "/personalweb/static/media/portfolioCapture.38bcd01c.png",
+    "static/media/rubenCapture.a5b42b1b.png": "/personalweb/static/media/rubenCapture.a5b42b1b.png",
+    "static/media/swaggerCapture.461909c3.png": "/personalweb/static/media/swaggerCapture.461909c3.png",
+    "static/media/thenewstoreCapture.79d42be5.png": "/personalweb/static/media/thenewstoreCapture.79d42be5.png",
+    "static/media/todoAppCaptureNew.56725607.png": "/personalweb/static/media/todoAppCaptureNew.56725607.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7a1dac1e.js",
     "static/js/2.4b1d4fd4.chunk.js",
     "static/css/main.7bcbf4f4.chunk.css",
-    "static/js/main.4ff51bca.chunk.js"
+    "static/js/main.fffb7c89.chunk.js"
   ]
 }
