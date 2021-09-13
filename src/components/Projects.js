@@ -3,7 +3,7 @@ import battleshipCapture from "../battleshipCapture.png";
 import catQuizCapture from "../catQuizCapture.png";
 import portfolioCapture from "../portfolioCapture.png";
 import thenewstoreCapture from "../thenewstoreCapture.png";
-import todoAppCapture from "../todoAppCaptureReduced.png";
+import todoAppCapture from "../todoAppCaptureNew.png";
 import creandovinculos from "../creandovinculos.png";
 import rubenCapture from "../rubenCapture.png";
 import swaggerCapture from "../swaggerCapture.png";
