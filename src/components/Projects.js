@@ -58,6 +58,13 @@ export const Projects = () => {
         >
           Github <i class="fab fa-github fa-lg"></i>
         </a>
+        <a
+          href="https://todolistappservice.azurewebsites.net/"
+          className="btn-visit"
+          target="_blank"
+        >
+          Visit site
+        </a>
       </div>
       <div className="project-card">
         <a href="https://nagagu.github.io/portfolio/" className="">
