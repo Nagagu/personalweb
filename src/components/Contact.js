@@ -31,7 +31,7 @@ export const Contact = () => {
         <p>You can download mi CV if you wish more information</p>{" "}
       </div>
       <a
-        href={process.env.PUBLIC_URL + "/cvNatEn.pdf"}
+        href={process.env.PUBLIC_URL + "/Natalia_Garrido22.pdf"}
         download="Natalia Curriculum Vitae"
         className="btn-visit"
         id="cv"
