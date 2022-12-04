@@ -16,6 +16,12 @@ export const About = () => {
         team, in that way this is one of my strenght of my profile.
       </p>
       <p>
+        I'm a bit tired of working on boring projects that are monotonous or
+        take years. I prefer to be part of companies that develop short-term
+        projects with attention to detail and aesthetics, since it is the part
+        of programming that I like the most.
+      </p>
+      <p>
         {" "}
         My intention is to make of this web the place where I would drag all my
         programming knowledge along the time, so it would be a dynamic place
