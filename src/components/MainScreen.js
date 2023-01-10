@@ -10,7 +10,7 @@ export const MainScreen = () => {
         <div className="logo"></div>
         <div className="name">
           Natalia Garrido
-          <p>Full Stack Developer - Creative designer</p>
+          <p>Web Developer - Creative designer</p>
         </div>
         <div className="buttons-main">
           <button>

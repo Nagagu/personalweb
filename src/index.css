@@ -120,9 +120,21 @@ button a {
 .section {
   /* height: auto; */
   /* height: 85vh; */
-  padding: 40px;
+
+  padding: 100px 40px 40px 40px;
   line-height: 24px;
   text-align: center;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .section p {
   margin-bottom: 4vh;
@@ -146,11 +158,22 @@ button a {
 }
 .projects {
   height: 100%;
-  padding: 40px;
+  padding: 100px 40px 40px 40px;
   line-height: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .project-card img {
@@ -221,6 +244,10 @@ button a {
     background: #f7f1f121;
     flex-direction: row;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
   }
   .navbar-nav a {
     text-decoration: none;
