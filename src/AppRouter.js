@@ -4,12 +4,12 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import { NavBar } from "./NavBar";
-import { Menu } from "./Menu";
-import { About } from "./About";
-import { Contact } from "./Contact";
-import { MainScreen } from "./MainScreen";
-import { Projects } from "./Projects";
+import { NavBar } from "./components/NavBar";
+import { Menu } from "./components/Menu";
+import { About } from "./pages/About";
+import { Contact } from "./pages/Contact";
+import { MainScreen } from "./pages/MainScreen";
+import { Projects } from "./pages/Projects";
 
 import { useState } from "react";
 

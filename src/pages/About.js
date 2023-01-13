@@ -1,10 +1,13 @@
 import React from "react";
-import personalphoto from "../personal-photo2.png";
+import personalphoto from "../assets/personal-photo2.png";
 
 export const About = () => {
   return (
     <div className="section about">
       <div className="section-title">About :</div>
+      <h1 class="animate__animated animate__fadeInRight">
+        An animated element
+      </h1>
       <img src={personalphoto} alt="personal photo"></img>
       <p>
         I am a reinvented environmentalist who decided to learn programming to

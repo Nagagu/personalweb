@@ -1,5 +1,5 @@
 html {
-  background: url("cyber.png") no-repeat center center fixed;
+  background: url("assets/cyber.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,7 +62,7 @@ label {
   color: white;
 }
 .logo {
-  background-image: url("logoNatWhite.png");
+  background-image: url("assets/logoNatWhite.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -157,7 +157,14 @@ button a {
   margin-bottom: 1vh;
 }
 .projects {
-  height: 100%;
+  /* height: 100%; */
+  background: rgb(2, 12, 42);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 12, 42, 1) 0%,
+    rgba(35, 15, 79, 1) 38%,
+    rgba(61, 6, 74, 1) 72%
+  );
   padding: 100px 40px 40px 40px;
   line-height: 24px;
   display: flex;
@@ -179,10 +186,17 @@ button a {
 .project-card img {
   width: 100%;
   max-width: 50vh;
+  padding: 0.5vw;
+  background-color: #ffff;
+  border-radius: 12px;
 }
 .project-card {
   text-align: center;
   margin-bottom: 10vh;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+  padding: 7vh 0px;
+  border-radius: 12px;
 }
 
 /* .project-card img {
