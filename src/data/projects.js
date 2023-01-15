@@ -6,11 +6,13 @@ import todoAppCapture from "../assets/todoAppCaptureNew.png";
 import creandovinculos from "../assets/creandovinculos.png";
 import rubenCapture from "../assets/rubenCapture.png";
 import swaggerCapture from "../assets/swaggerCapture.png";
-
+import audioPlayerCapture from "../assets/audioplayerCapture.png";
+import meowterCapture from "../assets/meowterCapture.png";
 export const projectsData = [
   {
     id: 1,
-    url: "TodoList/",
+    urlWeb: "https://nagagu.github.io/TodoList/",
+    urlGitHub: "https://github.com/Nagagu/TodoList",
     img: todoAppCapture,
     alt: "Todo List Capture",
     title: "To-Do List",
@@ -19,7 +21,8 @@ export const projectsData = [
   },
   {
     id: 2,
-    url: "TodoListServer/",
+    urlWeb: "https://nagagu.github.io/TodoListServer/",
+    urlGitHub: "https://github.com/Nagagu/TodoListServer",
     img: swaggerCapture,
     alt: "Todo List Server Capture",
     title: "To-Do List Server",
@@ -28,7 +31,8 @@ export const projectsData = [
   },
   {
     id: 3,
-    url: "portfolio/",
+    urlWeb: "https://nagagu.github.io/portfolio/",
+    urlGitHub: "https://github.com/Nagagu/portfolio",
     img: portfolioCapture,
     alt: "portfolio Capture",
     title: "Portfolio example",
@@ -37,7 +41,8 @@ export const projectsData = [
   },
   {
     id: 4,
-    url: "TheNewStore/",
+    urlWeb: "https://nagagu.github.io/TheNewStore/",
+    urlGitHub: "https://github.com/Nagagu/TheNewStore",
     img: thenewstoreCapture,
     alt: "The New Store Capture",
     title: "The New Store",
@@ -46,7 +51,8 @@ export const projectsData = [
   },
   {
     id: 5,
-    url: "BattleShipGame/",
+    urlWeb: "https://nagagu.github.io/BattleShipGame/",
+    urlGitHub: "https://github.com/Nagagu/BattleShipGame",
     img: battleshipCapture,
     alt: "Battleship Capture",
     title: "Battleship Game",
@@ -55,7 +61,8 @@ export const projectsData = [
   },
   {
     id: 6,
-    url: "catsApp/",
+    urlWeb: "https://nagagu.github.io/catsApp/",
+    urlGitHub: "https://github.com/Nagagu/catsApp",
     img: catQuizCapture,
     alt: "Cat Quiz Capture",
     title: "Cat Quiz",
@@ -64,7 +71,7 @@ export const projectsData = [
   },
   {
     id: 7,
-    url: "https://creandovinculos.com/",
+    urlWeb: "https://creandovinculos.com/",
     img: creandovinculos,
     alt: "Creando Vinculos Capture",
     title: "Creando Vínculos Wordpress",
@@ -73,11 +80,27 @@ export const projectsData = [
   },
   {
     id: 8,
-    url: "",
+    urlWeb: "",
     img: rubenCapture,
     alt: "Ruben is my teacher web Capture",
     title: "Ruben is my teacher",
     description:
       "A Spanish classes wordpress for a teacher (currently inactive)",
+  },
+  {
+    id: 9,
+    urlWeb: "https://z1audioplayer.vercel.app/",
+    img: audioPlayerCapture,
+    alt: "Audio Player Capture",
+    title: "Audio Player Challenge",
+    description: "Audio Player Description",
+  },
+  {
+    id: 10,
+    urlWeb: "https://nagagu.github.io/MeowTer/",
+    img: meowterCapture,
+    alt: "Meowter Capture",
+    title: "MeowTer Challenge",
+    description: "Meowter: social network for cats ",
   },
 ];

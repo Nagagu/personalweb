@@ -1,0 +1,62 @@
+.projects {
+  /* height: 100%; */
+  background: rgb(2, 12, 42);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 12, 42, 1) 0%,
+    rgba(35, 15, 79, 1) 38%,
+    rgba(61, 6, 74, 1) 72%
+  );
+  padding: 100px 40px 40px 40px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 50vh;
+  padding: 0.5vw;
+  background-color: #ffff;
+  border-radius: 12px;
+}
+.project-card {
+  text-align: center;
+  margin-bottom: 10vh;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+  padding: 7vh 0px;
+  border-radius: 12px;
+}
+
+/* .project-card img {
+    max-width: 50%;
+  } */
+.project-card p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+.btn-visit {
+  color: white;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-family: "Chakra Petch";
+  font-size: 0.8rem;
+  margin: 0px 13px;
+}
