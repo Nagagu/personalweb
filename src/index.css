@@ -157,14 +157,14 @@ button a {
   margin-bottom: 1vh;
 }
 .projects {
-  /* height: 100%; */
-  background: rgb(2, 12, 42);
+  height: 100%;
+  /* background: rgb(2, 12, 42);
   background: linear-gradient(
     180deg,
     rgba(2, 12, 42, 1) 0%,
     rgba(35, 15, 79, 1) 38%,
     rgba(61, 6, 74, 1) 72%
-  );
+  ); */
   padding: 100px 40px 40px 40px;
   line-height: 24px;
   display: flex;
@@ -184,7 +184,7 @@ button a {
 }
 
 .project-card img {
-  width: 100%;
+  width: 80%;
   max-width: 50vh;
   padding: 0.5vw;
   background-color: #ffff;
@@ -192,13 +192,46 @@ button a {
 }
 .project-card {
   text-align: center;
-  margin-bottom: 10vh;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
-  padding: 7vh 0px;
+  margin-top: 10vh;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #c459cb,
+    0 0 0.8rem #c459cb, 0 0 2.8rem #c459cb, inset 0 0 1.3rem #c459cb;
+  padding: 5vh 0px;
   border-radius: 12px;
+  background-color: #041933;
 }
+.cardContainer {
+}
+.projectTitle {
+  margin-top: 3vh;
+}
+.tagsContainer {
+  position: absolute;
+  top: 24px;
+  left: -13px;
+  color: #3d3d3d;
 
+  /* display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -ms-flex-align: start;
+  align-items: flex-start; */
+  /* display: inline-grid; */
+}
+.tag {
+  margin-bottom: 1vh;
+  display: flex;
+}
+.tag span {
+  /* position: absolute; */
+  padding: 0.2vh 2vw;
+  background-color: white;
+  border-radius: 6px;
+  font-family: "Chakra Petch";
+  font-size: 0.8rem;
+  box-shadow: 0px 0px 5px 5px #0000002f;
+  color: #460966;
+}
 /* .project-card img {
   max-width: 50%;
 } */
@@ -207,7 +240,37 @@ button a {
   text-align: center;
   margin-bottom: 4vh;
 }
+.demo {
+  height: fit-content;
+  width: 320px;
+  font-size: 30px;
+  border: 1px solid rgb(243, 238, 238);
+  color: white;
+}
+/* .divPadre {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+}
+.divHijo1 {
+  position: absolute;
+  z-index: 1;
+  color: white;
+} */
+.projectInfo {
+  bottom: 20px;
+  left: 16vw;
+}
 
+/* .divHijo2 {
+  position: absolute;
+  left: 12vw;
+  top: 7vh;
+  z-index: 2;
+  width: 26vw;
+  height: 28vh;
+  border-radius: 10px;
+} */
 .btn-visit {
   color: white;
   text-decoration: none;
@@ -255,7 +318,8 @@ button a {
   .navbar-nav {
     display: flex;
     height: 60px;
-    background: #f7f1f121;
+    /* background: #f7f1f121; */
+    background: #703274;
     flex-direction: row;
     justify-content: space-around;
     position: fixed;
@@ -319,7 +383,7 @@ button a {
     font-size: 1.2rem;
   }
   .section-title {
-    margin: 3vh 0px 7vh 0px;
+    margin: 3vh 0px 0vh 0px;
   }
   .about img {
     max-width: 35vh;
@@ -338,8 +402,31 @@ button a {
     font-size: 1.3rem;
     line-height: 5vh;
   }
-
+  .project-card {
+    margin: 5vh 0vh 5vh 0vh;
+  }
   .projects p {
     font-size: initial;
+  }
+  .tagsContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 47px;
+  }
+  .tag {
+    margin-bottom: 5vh;
+    display: flex;
+  }
+
+  .tag span {
+    /* position: absolute; */
+    padding: 0.3vw 1vw;
+    background-color: white;
+    border-radius: 6px;
+    font-family: "Chakra Petch";
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 5px 5px #0000002f;
+    color: #460966;
   }
 }

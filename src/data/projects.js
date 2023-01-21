@@ -10,44 +10,22 @@ import audioPlayerCapture from "../assets/audioplayerCapture.png";
 import meowterCapture from "../assets/meowterCapture.png";
 export const projectsData = [
   {
-    id: 1,
-    urlWeb: "https://nagagu.github.io/TodoList/",
-    urlGitHub: "https://github.com/Nagagu/TodoList",
-    img: todoAppCapture,
-    alt: "Todo List Capture",
-    title: "To-Do List",
-    description:
-      "Simple To-Do application of React js together with the server part with C # in .Net environment and Entity Framework",
+    id: 9,
+    urlWeb: "https://z1audioplayer.vercel.app/",
+    img: audioPlayerCapture,
+    alt: "Audio Player Capture",
+    title: "Audio Player Challenge",
+    description: "Audio Player Description",
+    tags: ["React", "Context", "GraphQl", "TypeScript", "StyledComponents"],
   },
   {
-    id: 2,
-    urlWeb: "https://nagagu.github.io/TodoListServer/",
-    urlGitHub: "https://github.com/Nagagu/TodoListServer",
-    img: swaggerCapture,
-    alt: "Todo List Server Capture",
-    title: "To-Do List Server",
-    description:
-      "Server part with C # in .Net environment and Entity Framework",
-  },
-  {
-    id: 3,
-    urlWeb: "https://nagagu.github.io/portfolio/",
-    urlGitHub: "https://github.com/Nagagu/portfolio",
-    img: portfolioCapture,
-    alt: "portfolio Capture",
-    title: "Portfolio example",
-    description:
-      "I wanted to do something with my photography portfolio and here it is. A showcase of some of my best photos and their location.",
-  },
-  {
-    id: 4,
-    urlWeb: "https://nagagu.github.io/TheNewStore/",
-    urlGitHub: "https://github.com/Nagagu/TheNewStore",
-    img: thenewstoreCapture,
-    alt: "The New Store Capture",
-    title: "The New Store",
-    description:
-      "A simple store in which to add and remove products from the cart using Redux and calling an external API",
+    id: 10,
+    urlWeb: "https://nagagu.github.io/MeowTer/",
+    img: meowterCapture,
+    alt: "Meowter Capture",
+    title: "MeowTer Challenge",
+    description: "Meowter: social network for cats ",
+    tags: ["React", "Context", "TypeScript"],
   },
   {
     id: 5,
@@ -58,6 +36,7 @@ export const projectsData = [
     title: "Battleship Game",
     description:
       "Very simplified version of the Battleship Game using Redux. It is a PWA so it can be installed on any operating system",
+    tags: ["React", "Redux", "PWA"],
   },
   {
     id: 6,
@@ -68,6 +47,51 @@ export const projectsData = [
     title: "Cat Quiz",
     description:
       "Answer the questions to find out how much of a geek you are. Also developed as PWA.",
+    tags: ["React", "Redux", "PWA", "API"],
+  },
+  {
+    id: 3,
+    urlWeb: "https://nagagu.github.io/portfolio/",
+    urlGitHub: "https://github.com/Nagagu/portfolio",
+    img: portfolioCapture,
+    alt: "portfolio Capture",
+    title: "Portfolio example",
+    description:
+      "I wanted to do something with my photography portfolio and here it is. A showcase of some of my best photos and their location.",
+    tags: ["React", "Google-Api"],
+  },
+  {
+    id: 4,
+    urlWeb: "https://nagagu.github.io/TheNewStore/",
+    urlGitHub: "https://github.com/Nagagu/TheNewStore",
+    img: thenewstoreCapture,
+    alt: "The New Store Capture",
+    title: "The New Store",
+    description:
+      "A simple store in which to add and remove products from the cart using Redux and calling an external API",
+    tags: ["React", "Redux"],
+  },
+  {
+    id: 1,
+    urlWeb: "https://nagagu.github.io/TodoList/",
+    urlGitHub: "https://github.com/Nagagu/TodoList",
+    img: todoAppCapture,
+    alt: "Todo List Capture",
+    title: "To-Do List",
+    description:
+      "Simple To-Do application of React js together with the server part with C # in .Net environment and Entity Framework",
+    tags: ["React", "API"],
+  },
+  {
+    id: 2,
+    urlWeb: "https://nagagu.github.io/TodoListServer/",
+    urlGitHub: "https://github.com/Nagagu/TodoListServer",
+    img: swaggerCapture,
+    alt: "Todo List Server Capture",
+    title: "To-Do List Server",
+    description:
+      "Server part with C # in .Net environment and Entity Framework",
+    tags: [".Net", "C#", "EF"],
   },
   {
     id: 7,
@@ -77,6 +101,7 @@ export const projectsData = [
     title: "Creando Vínculos Wordpress",
     description:
       "A Wordpress created with care for a professional psychotherapist",
+    tags: ["WordPress", "Elementor"],
   },
   {
     id: 8,
@@ -86,21 +111,6 @@ export const projectsData = [
     title: "Ruben is my teacher",
     description:
       "A Spanish classes wordpress for a teacher (currently inactive)",
-  },
-  {
-    id: 9,
-    urlWeb: "https://z1audioplayer.vercel.app/",
-    img: audioPlayerCapture,
-    alt: "Audio Player Capture",
-    title: "Audio Player Challenge",
-    description: "Audio Player Description",
-  },
-  {
-    id: 10,
-    urlWeb: "https://nagagu.github.io/MeowTer/",
-    img: meowterCapture,
-    alt: "Meowter Capture",
-    title: "MeowTer Challenge",
-    description: "Meowter: social network for cats ",
+    tags: ["WordPress", "Elementor", "Photoshop"],
   },
 ];

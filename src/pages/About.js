@@ -6,7 +6,7 @@ export const About = () => {
     <div className="section about">
       <div className="section-title">About :</div>
       <h1 class="animate__animated animate__fadeInRight">
-        An animated element
+        An animated element // SKILLS //
       </h1>
       <img src={personalphoto} alt="personal photo"></img>
       <p>
