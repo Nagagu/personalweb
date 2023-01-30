@@ -15,8 +15,8 @@ export const projectsData = [
     img: audioPlayerCapture,
     alt: "Audio Player Capture",
     title: "Audio Player Challenge",
-    description: "Audio Player Description",
-    tags: ["React", "Context", "GraphQl", "TypeScript", "StyledComponents"],
+    description: "Because I love music",
+    tags: ["React", "Context", "GraphQl", "TypeScript", "Styled Components"],
   },
   {
     id: 10,

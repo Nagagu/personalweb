@@ -143,11 +143,15 @@ button a {
   margin-bottom: 4vh;
 }
 
+.about {
+  background-color: #022139;
+}
+
 .about p {
   text-align: justify;
   color: white;
 }
-.about img {
+.personalPhoto img {
   width: 100%;
   max-width: 25vh;
   height: auto;
@@ -155,6 +159,38 @@ button a {
   max-height: 20vh; */
   border-radius: 50%;
   margin-bottom: 1vh;
+}
+.skillsContainer {
+  position: relative;
+  left: -12vw;
+}
+.skillsList {
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: repeat(3, minmax(113px, 1fr));
+  grid-auto-rows: 120px;
+  list-style: none;
+}
+.skillsList li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.skillsList img {
+  width: 10vw;
+  margin-bottom: 15px;
+}
+.skillsList span {
+  font-family: "Chakra Petch";
+}
+.section-title-tools {
+  margin-top: 5vh;
+  font-family: "Chakra Petch";
+  color: white;
 }
 .projects {
   height: 100%;
@@ -296,6 +332,43 @@ button a {
   padding: 18px;
 }
 
+@media only screen and (min-width: 600px) {
+  .skillsContainer {
+    position: relative;
+    left: -6vw;
+  }
+  .skillsList {
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: repeat(6, minmax(150px, 1fr));
+    grid-auto-rows: 100px;
+    list-style: none;
+  }
+  .skillsList li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .skillsList img {
+    width: 3vw;
+  }
+  .skillsList span {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .skillsList {
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+  }
+  .section-title-tools {
+    margin-top: 10vh;
+    font-family: "Chakra Petch";
+    color: white;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   .main {
     width: auto;
@@ -388,7 +461,39 @@ button a {
   .about img {
     max-width: 35vh;
   }
-
+  .skillsContainer {
+    /* width: 70vw;
+    position: relative;
+    left: 10vw; */
+  }
+  .skillsList {
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: repeat(6, minmax(150px, 1fr));
+    grid-auto-rows: 150px;
+    list-style: none;
+  }
+  .skillsList li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .skillsList img {
+    width: 3vw;
+  }
+  .skillsList span {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 0.8rem;
+  }
+  .section-title-tools {
+    margin-top: 10vh;
+    font-family: "Chakra Petch";
+    color: white;
+  }
   /* .contact h3 {
     margin-top: 9vh;
   } */
@@ -428,5 +533,34 @@ button a {
     font-size: 1.5rem;
     box-shadow: 0px 0px 5px 5px #0000002f;
     color: #460966;
+  }
+  .skillsContainer {
+    /* width: 70vw;
+    position: relative;
+    left: 10vw; */
+    display: inline-grid;
+    left: -50px;
+  }
+  .skillsList {
+    /* letter-spacing: 0.1rem;
+    font-weight: 500;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: repeat(6, minmax(150px, 1fr));
+    grid-auto-rows: 150px;
+    list-style: none; */
+  }
+  .skillsList li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .skillsList img {
+    width: 3vw;
+  }
+  .skillsList span {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
   }
 }
