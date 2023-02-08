@@ -12,14 +12,6 @@ export const ProjectCard = ({ data }) => {
       scale: 2,
     },
   };
-  const detailsBoxVariant = {
-    hidden: { opacity: 0 },
-    hover: {
-      opacity: 1,
-      scale: 2,
-      transition: { duration: 0.2 },
-    },
-  };
 
   useEffect(() => {
     if (inView) {
@@ -29,7 +21,6 @@ export const ProjectCard = ({ data }) => {
     //   control.start("hidden");
     // }
   }, [control, inView]);
-  console.log(data.tags);
 
   return (
     <motion.div
@@ -39,8 +30,6 @@ export const ProjectCard = ({ data }) => {
       animate={control}
       className="project-card"
     >
-      {/* //poner un div que contenga la lista de stacks con un width fijo para que
-      crezca hacia abajo */}
       <div className="cardContainer">
         <div className="tagsContainer">
           {data.tags.map((o) => (
@@ -52,7 +41,7 @@ export const ProjectCard = ({ data }) => {
 
         <div>
           {" "}
-          <a href={data.urlWeb} target="_blank">
+          <a href={data.urlWeb} target="_blank" rel="noreferrer">
             <motion.img
               whileHover={{
                 scale: 1.05,
@@ -67,22 +56,24 @@ export const ProjectCard = ({ data }) => {
         <div className="projectInfo">
           {" "}
           <p>{data.description}</p>
-          <a href={data.urlGitHub} className="btn-visit" target="_blank">
+          <a
+            href={data.urlGitHub}
+            className="btn-visit"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github <i class="fab fa-github fa-lg"></i>
           </a>
-          <a href={data.urlWeb} className="btn-visit" target="_blank">
+          <a
+            href={data.urlWeb}
+            className="btn-visit"
+            target="_blank"
+            rel="noreferrer"
+          >
             Visit site
           </a>
         </div>
       </div>
     </motion.div>
-  );
-};
-
-const Tag = (item) => {
-  return (
-    <div className="tag">
-      <p>{item}</p>
-    </div>
   );
 };

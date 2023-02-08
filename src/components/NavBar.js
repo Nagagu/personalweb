@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export const NavBar = ({ setMenuIsOpen, menuIsOpen }) => {
   return (
     <>
-      <div className="navbar-nav">
+      <div className="navbar-nav second">
         <div className="nav-left">
           {" "}
           <NavLink

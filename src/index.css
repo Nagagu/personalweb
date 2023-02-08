@@ -10,6 +10,56 @@ body {
   margin: 0;
   padding: 0;
 }
+@keyframes slideInLeft {
+  from {
+    display: none;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.second {
+  display: none;
+  animation: fadeIn 2s;
+}
+
+@keyframes flicker {
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
+    /* text-shadow: none; */
+    opacity: 0.99;
+  }
+  40%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
+    opacity: 0.4;
+  }
+}
+svg {
+  filter: drop-shadow(10px 10px 200px #c459cb)
+    drop-shadow(-10px -10px 50px #c459cb) drop-shadow(0px 0px 10px #c459cb);
+  transform: scale(0.5);
+  margin: 0;
+  animation: flicker 0.5s linear infinite;
+}
+svg:hover {
+  animation: none;
+}
+
+.neonLogo {
+  height: 0vh;
+  align-self: center;
+}
+
 h1,
 h3,
 p {
@@ -56,10 +106,9 @@ label {
 .main {
   display: flex;
   flex-direction: column;
-  /* height: 74vh; */
-  width: auto;
   justify-content: space-between;
   color: white;
+  height: 96vh;
 }
 .logo {
   background-image: url("assets/logoNatWhite.png");
@@ -70,6 +119,7 @@ label {
   height: 15vh;
   margin-bottom: 6vh;
 }
+
 .name {
   font-family: "Chakra Petch", sans-serif;
   font-size: 3em;
@@ -121,7 +171,7 @@ button a {
   /* height: auto; */
   /* height: 85vh; */
 
-  padding: 100px 40px 40px 40px;
+  /* padding: 100px 40px 40px 40px; */
   line-height: 24px;
   text-align: center;
   animation: fadeInAnimation ease 2s;
@@ -194,13 +244,6 @@ button a {
 }
 .projects {
   height: 100%;
-  /* background: rgb(2, 12, 42);
-  background: linear-gradient(
-    180deg,
-    rgba(2, 12, 42, 1) 0%,
-    rgba(35, 15, 79, 1) 38%,
-    rgba(61, 6, 74, 1) 72%
-  ); */
   padding: 100px 40px 40px 40px;
   line-height: 24px;
   display: flex;
@@ -245,14 +288,6 @@ button a {
   top: 24px;
   left: -13px;
   color: #3d3d3d;
-
-  /* display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-
-  -ms-flex-align: start;
-  align-items: flex-start; */
-  /* display: inline-grid; */
 }
 .tag {
   margin-bottom: 1vh;
@@ -268,9 +303,7 @@ button a {
   box-shadow: 0px 0px 5px 5px #0000002f;
   color: #460966;
 }
-/* .project-card img {
-  max-width: 50%;
-} */
+
 .project-card p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
@@ -283,30 +316,12 @@ button a {
   border: 1px solid rgb(243, 238, 238);
   color: white;
 }
-/* .divPadre {
-  position: relative;
-  width: 50vw;
-  height: 50vh;
-}
-.divHijo1 {
-  position: absolute;
-  z-index: 1;
-  color: white;
-} */
+
 .projectInfo {
   bottom: 20px;
   left: 16vw;
 }
 
-/* .divHijo2 {
-  position: absolute;
-  left: 12vw;
-  top: 7vh;
-  z-index: 2;
-  width: 26vw;
-  height: 28vh;
-  border-radius: 10px;
-} */
 .btn-visit {
   color: white;
   text-decoration: none;
@@ -321,9 +336,7 @@ button a {
   font-size: 1rem;
   padding: 12px 30px;
 }
-/* .btn-visit {
-  margin: 0px 13px;
-} */
+
 .social-links {
   text-align: center;
 }
@@ -332,19 +345,10 @@ button a {
   padding: 18px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 660px) {
   .skillsContainer {
     position: relative;
     left: -6vw;
-  }
-  .skillsList {
-    letter-spacing: 0.1rem;
-    font-weight: 500;
-    width: 100%;
-    display: inline-grid;
-    grid-template-columns: repeat(6, minmax(150px, 1fr));
-    grid-auto-rows: 100px;
-    list-style: none;
   }
   .skillsList li {
     display: flex;
@@ -354,7 +358,7 @@ button a {
     color: white;
   }
   .skillsList img {
-    width: 3vw;
+    width: 5vw;
   }
   .skillsList span {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -371,10 +375,23 @@ button a {
 
 @media only screen and (min-width: 1000px) {
   .main {
-    width: auto;
+    /* width: auto; */
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
   }
-  .logo {
+  /* .logo {
     margin-bottom: 3vh;
+  } */
+  svg {
+    filter: drop-shadow(10px 10px 200px #c459cb)
+      drop-shadow(-10px -10px 50px #c459cb) drop-shadow(0px 0px 10px #c459cb);
+    transform: scale(0.5);
+    margin: 0;
+    animation: flicker 0.5s linear infinite;
+  }
+  svg:hover {
+    animation: none;
   }
   /* .buttons-container {
     padding-bottom: 25vh;
@@ -455,23 +472,24 @@ button a {
     line-height: 4vh;
     font-size: 1.2rem;
   }
-  .section-title {
-    margin: 3vh 0px 0vh 0px;
-  }
+
   .about img {
     max-width: 35vh;
+  }
+  .aboutText {
+    border-bottom: #c459cb 1px solid;
+    width: 70vw;
+    display: inline-block;
   }
   .skillsContainer {
     /* width: 70vw;
     position: relative;
     left: 10vw; */
+    display: inline-grid;
+    left: -45px;
   }
   .skillsList {
-    letter-spacing: 0.1rem;
-    font-weight: 500;
-    width: 100%;
-    display: inline-grid;
-    grid-template-columns: repeat(6, minmax(150px, 1fr));
+    grid-template-columns: repeat(6, minmax(110px, 1fr));
     grid-auto-rows: 150px;
     list-style: none;
   }
@@ -490,16 +508,17 @@ button a {
     font-size: 0.8rem;
   }
   .section-title-tools {
-    margin-top: 10vh;
+    margin: 10vh 0px 3vh 0px;
     font-family: "Chakra Petch";
     color: white;
+    font-size: 1.5rem;
   }
   /* .contact h3 {
     margin-top: 9vh;
   } */
 }
 
-@media only screen and (min-width: 1400px) {
+/* @media only screen and (min-width: 1400px) {
   .section p {
     margin: 6vh 12vw;
   }
@@ -525,7 +544,6 @@ button a {
   }
 
   .tag span {
-    /* position: absolute; */
     padding: 0.3vw 1vw;
     background-color: white;
     border-radius: 6px;
@@ -535,21 +553,10 @@ button a {
     color: #460966;
   }
   .skillsContainer {
-    /* width: 70vw;
-    position: relative;
-    left: 10vw; */
     display: inline-grid;
     left: -50px;
   }
-  .skillsList {
-    /* letter-spacing: 0.1rem;
-    font-weight: 500;
-    width: 100%;
-    display: inline-grid;
-    grid-template-columns: repeat(6, minmax(150px, 1fr));
-    grid-auto-rows: 150px;
-    list-style: none; */
-  }
+
   .skillsList li {
     display: flex;
     flex-direction: column;
@@ -563,4 +570,4 @@ button a {
   .skillsList span {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
   }
-}
+} */

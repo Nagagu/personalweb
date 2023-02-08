@@ -10,18 +10,19 @@ export const Contact = () => {
         have a preference for beautiful and original projects and my goal in my
         work is to get to develop products from beginning to end, to be part of
         the decisions at the creative, artistic and marketing level, as well as
-        the code architecture from the front to the back.
+        the code architecture.
       </p>
 
       <p>If you are interested you can contact me here:</p>
       <h3>n.garridoagudo@gmail.com</h3>
       <div className="social-links">
-        <a href="https://github.com/Nagagu" target="_blank">
+        <a href="https://github.com/Nagagu" target="_blank" rel="noreferrer">
           <i class="fab fa-github fa-3x"></i>
         </a>
         <a
           href="https://linkedin.com/in/natalia-garrido-agudo-396a2a7b"
           target="_blank"
+          rel="noreferrer"
         >
           <i class="fab fa-linkedin fa-3x"></i>
         </a>
