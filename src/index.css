@@ -24,6 +24,8 @@ body {
 }
 
 @keyframes flicker {
+  from {
+  }
   0%,
   19.999%,
   22%,
@@ -50,9 +52,10 @@ svg {
   transform: scale(0.5);
   margin: 0;
   animation: flicker 0.5s linear infinite;
+  animation-iteration-count: 8, 0, infinite;
 }
 svg:hover {
-  animation: none;
+  animation: flicker 0.5s linear infinite;
 }
 
 .neonLogo {
@@ -389,10 +392,11 @@ button a {
     transform: scale(0.5);
     margin: 0;
     animation: flicker 0.5s linear infinite;
+    animation-iteration-count: 8, 0, infinite;
   }
-  svg:hover {
+  /* svg:hover {
     animation: none;
-  }
+  } */
   /* .buttons-container {
     padding-bottom: 25vh;
   } */
