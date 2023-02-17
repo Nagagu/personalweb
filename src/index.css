@@ -428,6 +428,13 @@ button a {
     padding: 0px 1vw;
     font-size: 1.2rem;
   }
+  .navbar-nav a:hover {
+    /* box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #c459cb,
+      0 0 0.8rem #c459cb, 0 0 2.8rem #c459cb, inset 0 0 1.3rem #c459cb; */
+    text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #c459cb,
+      0 0 30px #c459cb, 0 0 40px #c459cb, 0 0 55px #c459cb, 0 0 75px #c459cb,
+      2px 2px 0px rgba(206, 21, 78, 0), 2px 2px 0px rgba(206, 21, 78, 0);
+  }
   .nav-right {
     display: flex;
     margin-left: 45vw;
