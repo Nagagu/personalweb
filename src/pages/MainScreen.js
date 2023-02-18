@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useAnimation, motion } from "framer-motion/dist/framer-motion";
-import logo from "../assets/LogoNat.svg";
+import { useAnimation, motion } from "framer-motion";
+import MainLogo from "../components/Icons/MainLogo";
+
+//import logo from "../assets/LogoNat.svg";
 
 export const MainScreen = () => {
   const container = {
@@ -18,7 +20,7 @@ export const MainScreen = () => {
     <>
       <div className="section main">
         <div className="neonLogo">
-          <svg
+          {/* <svg
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
             width="413.000000pt"
@@ -60,7 +62,8 @@ export const MainScreen = () => {
                 509 l-98 113 439 0 439 0 8 -506z"
               />
             </g>
-          </svg>
+          </svg> */}
+          <MainLogo />
         </div>
         <motion.div initial="hidden" animate="show" variants={container}>
           <div className="name">
