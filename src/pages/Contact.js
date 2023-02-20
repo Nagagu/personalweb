@@ -4,16 +4,18 @@ export const Contact = () => {
   return (
     <div className="section contact">
       <div className="section-title">Contact :</div>
-      <p>
-        I am looking for a creative project that allows me to express my ideas
-        that poses new challenges every day and that makes me keep learning. I
-        have a preference for beautiful and original projects and my goal in my
-        work is to get to develop products from beginning to end, to be part of
-        the decisions at the creative, artistic and marketing level, as well as
-        the code architecture.
-      </p>
+      <div className="contactText">
+        <p>
+          I am looking for a creative project that allows me to express my ideas
+          that poses new challenges every day and that makes me keep learning. I
+          have a preference for beautiful and original projects and my goal in
+          my work is to get to develop products from beginning to end, to be
+          part of the decisions at the creative, artistic and marketing level,
+          as well as the code architecture.
+        </p>
 
-      <p>If you are interested you can contact me here:</p>
+        <p>If you are interested you can contact me here:</p>
+      </div>
       <h3>n.garridoagudo@gmail.com</h3>
       <div className="social-links">
         <a href="https://github.com/Nagagu" target="_blank" rel="noreferrer">

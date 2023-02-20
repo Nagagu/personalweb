@@ -1,11 +1,11 @@
 import React from "react";
 
-function FramerMotionIcon() {
+function FramerMotionIcon({ size }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="2500"
-      height="2500"
+      width={size}
+      // height="2500"
       viewBox="3.7 3.7 43.6 43.6"
     >
       <path

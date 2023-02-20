@@ -1,13 +1,18 @@
 import React from "react";
 
-function WordPressIcon() {
+function WordPressIcon({ size }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       ariaLabel="WordPress"
       viewBox="0 0 512 512"
+      width={size}
     >
-      <rect width="512" height="512" fill="#05a8da" rx="15%"></rect>
+      <rect
+        // height="512"
+        fill="#05a8da"
+        rx="15%"
+      ></rect>
       <circle
         cx="256"
         cy="256"

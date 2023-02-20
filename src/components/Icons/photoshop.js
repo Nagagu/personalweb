@@ -1,11 +1,11 @@
 import React from "react";
 
-function PhotoshopIcon() {
+function PhotoshopIcon({ size }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="800"
-      height="800"
+      width={size}
+      // height="800"
       viewBox="0 0 32 32"
     >
       <path fill="#0c0824" d="M3.167 3.517h25.666v24.966H3.167z"></path>

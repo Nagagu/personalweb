@@ -71,9 +71,47 @@ export const About = () => {
         // initial="hidden"
         // animate={control}
       >
-        <div className="section-title-tools">My main Tools :</div>
+        <div className="section-title-tools">My Favourite Tools :</div>
         <div className="skillsContainer">
-          <ul className="skillsList">
+          <div className="itemTool">
+            <ReactIcon size={60} />
+          </div>
+          <div className="itemTool">
+            <TypeScriptIcon size={60} />
+          </div>
+          <div className="itemTool">
+            <AzureIcon size={60} />
+          </div>
+          <div className="itemTool">
+            <CssIcon size={60} />
+          </div>
+          <div className="itemTool">
+            <FramerMotionIcon size={60} />
+          </div>
+          <div className="itemTool">
+            <HtmlIcon size={60} />
+          </div>
+
+          <div className="itemTool">
+            <JsIcon size={60} />
+          </div>
+          <div className="itemTool">
+            <PhotoshopIcon size={60} />
+          </div>
+          <div className="itemTool">
+            <StyledComponentsIcon size={60} />
+          </div>
+          <div className="itemTool">
+            <VSCodeIcon size={60} />
+          </div>
+          <div className="itemTool">
+            <Vs2019Icon size={60} />
+          </div>
+          <div className="itemTool">
+            <WordpressIcon size={70} />
+          </div>
+
+          {/*<ul className="skillsList">
             <li>
               <ReactIcon />
               <span>React</span>
@@ -124,7 +162,7 @@ export const About = () => {
               <PhotoshopIcon />
               <span>Photoshop</span>
             </li>
-          </ul>
+          </ul>*/}
         </div>
       </div>
       {/* </div> */}

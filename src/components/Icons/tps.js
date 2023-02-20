@@ -1,11 +1,11 @@
 import React from "react";
 
-function TypeScriptIcon() {
+function TypeScriptIcon({ size }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="800"
-      height="800"
+      width={size}
+      // height="800"
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 256"
     >

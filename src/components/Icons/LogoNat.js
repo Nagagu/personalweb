@@ -1,11 +1,11 @@
 import React from "react";
 
-function LogoNat() {
+function LogoNat({ size }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="550.667"
-      height="554.667"
+      width={size}
+      // height="554.667"
       version="1"
       viewBox="0 0 413 416"
     >

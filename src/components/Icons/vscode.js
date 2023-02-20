@@ -1,12 +1,12 @@
 import React from "react";
 
-function VSCodeIcon() {
+function VSCodeIcon({ size }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="800"
-      height="800"
+      width={size}
+      // height="800"
       preserveAspectRatio="xMidYMid"
       viewBox="0 -1 256 256"
     >
