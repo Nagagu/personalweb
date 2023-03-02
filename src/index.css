@@ -101,7 +101,11 @@ label {
   position: absolute;
   background: #0e0e0eeb;
   z-index: 1;
-  transition: all 200ms ease-in-out;
+  transition: all 1s ease-in-out;
+  animation: fadeIn 0.5s;
+}
+.fadeOut {
+  animation: fadeOut 0.5s;
 }
 .menu {
   display: flex;
@@ -271,7 +275,7 @@ button a {
 }
 .projects {
   height: 100%;
-  padding: 100px 40px 40px 40px;
+  padding: 2vh 4vw 2vw 2vh;
   line-height: 24px;
   display: flex;
   flex-direction: column;
@@ -298,7 +302,7 @@ button a {
 }
 .project-card {
   text-align: center;
-  margin-top: 10vh;
+  margin-bottom: 10vh;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #c459cb,
     0 0 0.8rem #c459cb, 0 0 2.8rem #c459cb, inset 0 0 1.3rem #c459cb;
   padding: 5vh 0px;
@@ -335,6 +339,7 @@ button a {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   margin-bottom: 4vh;
+  padding: 0px 5vw 0px 5vw;
 }
 .demo {
   height: fit-content;
