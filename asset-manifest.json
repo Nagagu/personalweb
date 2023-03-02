@@ -1,30 +1,25 @@
 {
   "files": {
-    "main.css": "/personalweb/static/css/main.2464209a.chunk.css",
-    "main.js": "/personalweb/static/js/main.a8af5e71.chunk.js",
-    "main.js.map": "/personalweb/static/js/main.a8af5e71.chunk.js.map",
-    "runtime-main.js": "/personalweb/static/js/runtime-main.7a1dac1e.js",
-    "runtime-main.js.map": "/personalweb/static/js/runtime-main.7a1dac1e.js.map",
-    "static/js/2.4b1d4fd4.chunk.js": "/personalweb/static/js/2.4b1d4fd4.chunk.js",
-    "static/js/2.4b1d4fd4.chunk.js.map": "/personalweb/static/js/2.4b1d4fd4.chunk.js.map",
+    "main.css": "/personalweb/static/css/main.37d82192.css",
+    "main.js": "/personalweb/static/js/main.17932ff0.js",
+    "static/media/cyber.png": "/personalweb/static/media/cyber.f6f607927e31056e0203.png",
+    "static/media/personal-photo2.png": "/personalweb/static/media/personal-photo2.47916797e358a9630b8f.png",
+    "static/media/portfolioCapture.png": "/personalweb/static/media/portfolioCapture.38bcd01c777c31f6f49b.png",
+    "static/media/creandovinculos.png": "/personalweb/static/media/creandovinculos.8edbfe569661b7af1f8b.png",
+    "static/media/thenewstoreCapture.png": "/personalweb/static/media/thenewstoreCapture.79d42be5f7911d2cd6fb.png",
+    "static/media/battleshipCapture.png": "/personalweb/static/media/battleshipCapture.03711a5e0c15071412a8.png",
+    "static/media/rubenCapture.png": "/personalweb/static/media/rubenCapture.a5b42b1b7ebccb0c3865.png",
+    "static/media/audioplayerCapture.png": "/personalweb/static/media/audioplayerCapture.34ad8bcd25bf6b478419.png",
+    "static/media/catQuizCapture.png": "/personalweb/static/media/catQuizCapture.03d62eb48b740a1a97b0.png",
+    "static/media/meowterCapture.png": "/personalweb/static/media/meowterCapture.9bc4fbfbe4166b816960.png",
+    "static/media/swaggerCapture.png": "/personalweb/static/media/swaggerCapture.461909c30f7b7f2e3647.png",
+    "static/media/todoAppCaptureNew.png": "/personalweb/static/media/todoAppCaptureNew.56725607e59ae71bdc62.png",
     "index.html": "/personalweb/index.html",
-    "static/css/main.2464209a.chunk.css.map": "/personalweb/static/css/main.2464209a.chunk.css.map",
-    "static/js/2.4b1d4fd4.chunk.js.LICENSE.txt": "/personalweb/static/js/2.4b1d4fd4.chunk.js.LICENSE.txt",
-    "static/media/battleshipCapture.03711a5e.png": "/personalweb/static/media/battleshipCapture.03711a5e.png",
-    "static/media/catQuizCapture.03d62eb4.png": "/personalweb/static/media/catQuizCapture.03d62eb4.png",
-    "static/media/creandovinculos.8edbfe56.png": "/personalweb/static/media/creandovinculos.8edbfe56.png",
-    "static/media/index.css": "/personalweb/static/media/cyber.f6f60792.png",
-    "static/media/personal-photo2.47916797.png": "/personalweb/static/media/personal-photo2.47916797.png",
-    "static/media/portfolioCapture.38bcd01c.png": "/personalweb/static/media/portfolioCapture.38bcd01c.png",
-    "static/media/rubenCapture.a5b42b1b.png": "/personalweb/static/media/rubenCapture.a5b42b1b.png",
-    "static/media/swaggerCapture.461909c3.png": "/personalweb/static/media/swaggerCapture.461909c3.png",
-    "static/media/thenewstoreCapture.79d42be5.png": "/personalweb/static/media/thenewstoreCapture.79d42be5.png",
-    "static/media/todoAppCaptureNew.56725607.png": "/personalweb/static/media/todoAppCaptureNew.56725607.png"
+    "main.37d82192.css.map": "/personalweb/static/css/main.37d82192.css.map",
+    "main.17932ff0.js.map": "/personalweb/static/js/main.17932ff0.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.7a1dac1e.js",
-    "static/js/2.4b1d4fd4.chunk.js",
-    "static/css/main.2464209a.chunk.css",
-    "static/js/main.a8af5e71.chunk.js"
+    "static/css/main.37d82192.css",
+    "static/js/main.17932ff0.js"
   ]
 }
