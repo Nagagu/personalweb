@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personalweb/static/css/main.37d82192.css",
-    "main.js": "/personalweb/static/js/main.17932ff0.js",
+    "main.css": "/personalweb/static/css/main.9d77e70f.css",
+    "main.js": "/personalweb/static/js/main.9422af62.js",
     "static/media/cyber.png": "/personalweb/static/media/cyber.f6f607927e31056e0203.png",
     "static/media/personal-photo2.png": "/personalweb/static/media/personal-photo2.47916797e358a9630b8f.png",
     "static/media/portfolioCapture.png": "/personalweb/static/media/portfolioCapture.38bcd01c777c31f6f49b.png",
@@ -15,11 +15,11 @@
     "static/media/swaggerCapture.png": "/personalweb/static/media/swaggerCapture.461909c30f7b7f2e3647.png",
     "static/media/todoAppCaptureNew.png": "/personalweb/static/media/todoAppCaptureNew.56725607e59ae71bdc62.png",
     "index.html": "/personalweb/index.html",
-    "main.37d82192.css.map": "/personalweb/static/css/main.37d82192.css.map",
-    "main.17932ff0.js.map": "/personalweb/static/js/main.17932ff0.js.map"
+    "main.9d77e70f.css.map": "/personalweb/static/css/main.9d77e70f.css.map",
+    "main.9422af62.js.map": "/personalweb/static/js/main.9422af62.js.map"
   },
   "entrypoints": [
-    "static/css/main.37d82192.css",
-    "static/js/main.17932ff0.js"
+    "static/css/main.9d77e70f.css",
+    "static/js/main.9422af62.js"
   ]
 }
