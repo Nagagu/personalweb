@@ -5,7 +5,7 @@ function MainLogo() {
     <svg
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
-      width="413.000000pt"
+      width="300.000000pt"
       height="416.000000pt"
       viewBox="0 0 413.000000 416.000000"
       preserveAspectRatio="xMidYMid meet"

@@ -46,6 +46,9 @@ body {
     opacity: 0.4;
   }
 }
+.neonLogo svg {
+  transform: scale(1); /* Escala el SVG al 150% */
+}
 .neonLogo {
   filter: drop-shadow(10px 10px 200px #c459cb)
     drop-shadow(-10px -10px 50px #c459cb) drop-shadow(0px 0px 10px #c459cb);
@@ -70,8 +73,12 @@ svg:hover {
 }
 
 .neonLogo {
-  height: 0vh;
+  height: 40vh;
   align-self: center;
+}
+.mainsection {
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -147,6 +154,7 @@ label {
   padding-bottom: 4vh;
   text-align: center;
   line-height: 6vh;
+  color: white;
   /* margin: -20vh 8vw 0px 8vw; */
 }
 .name p {
@@ -537,6 +545,7 @@ button a {
     grid-auto-rows: 6vw;
     padding: 0px 19vw 0 20vw;
   }
+
   .skillsList {
     grid-template-columns: repeat(6, minmax(110px, 1fr));
     grid-auto-rows: 150px;

@@ -18,7 +18,7 @@ export const MainScreen = () => {
 
   return (
     <>
-      <div className="section main">
+      <div className="mainsection">
         <div className="neonLogo">
           {/* <svg
             version="1.0"
@@ -65,29 +65,32 @@ export const MainScreen = () => {
           </svg> */}
           <MainLogo />
         </div>
-        <motion.div initial="hidden" animate="show" variants={container}>
-          <div className="name">
-            Natalia Garrido
-            <p>Web Developer - Creative designer</p>
-          </div>
-          <div className="buttons-main ">
-            <button>
-              <Link className="nav-item nav-link" to="/personalweb/about">
-                About
-              </Link>
-            </button>
-            <button>
-              <Link className="nav-item nav-link" to="/personalweb/projects">
-                Projects
-              </Link>
-            </button>
-            <button>
-              <Link className="nav-item nav-link" to="/personalweb/contact">
-                Contact
-              </Link>
-            </button>
-          </div>
-        </motion.div>
+
+        <div>
+          <motion.div initial="hidden" animate="show" variants={container}>
+            <div className="name">
+              Natalia Garrido
+              <p>Web Developer - Creative designer</p>
+            </div>
+            <div className="buttons-main ">
+              <button>
+                <Link className="nav-item nav-link" to="/personalweb/about">
+                  About
+                </Link>
+              </button>
+              <button>
+                <Link className="nav-item nav-link" to="/personalweb/projects">
+                  Projects
+                </Link>
+              </button>
+              <button>
+                <Link className="nav-item nav-link" to="/personalweb/contact">
+                  Contact
+                </Link>
+              </button>
+            </div>
+          </motion.div>
+        </div>
       </div>
     </>
   );
